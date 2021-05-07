@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #E8E8E8;
+    height: 55px;
+}
+
+.hola_2{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.hola_3{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.hola{
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    text-align: center;
+    width: 67px;
+    height: 20px;
+}
+
+.titulos{
+    height: 700px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    padding: 50px 0px 0px 50px;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+}
+
+.caja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caja div h1{
+    color: #FFF;
+    margin-top: 120px;
+    font-size: 50px;
+}
+
+.caja div h2{
+    color:#FFF;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.caja div a{
+    font-size: 20px;
+    color:#FFF;
+    background-color:  #4A4A4A;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #4A4A4A;
+    margin-top: 15px;
+    border-radius: 20px;
+    display:block;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contenedor div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #4A4A4A;
+    margin-top: 50px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.sistema{
+    background-color: #EA4437;
+    color: white;
+    text-decoration: none;
+}
+
+.xd{
+    background-color: #F4B400;
+    color: white;
+    text-decoration: none;
+}
+
+.perfil{
+    background-color: #34A853;
+    color: white;
+    text-decoration: none;
+}
+
+.plataforma{
+    background-color: #4285F4;
+    color: white;
+    text-decoration: none;
+}
+
+.aplicacion{
+    background-color: #4A4A4A;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+   color: white;
+    text-decoration: none;
+}
